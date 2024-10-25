@@ -1,6 +1,24 @@
-# this project is based on two Subject:
-**1) Generating interface for connection between Slave and Master of Surgery Robot:**  
-    By using the Tkinter library in Python is rudden the environment on a Raspberry Pi which displays a UI that assists in controlling and moving the master’s arms during surgery.
+# Surgical Robot GUI
 
-**2) TCP Connection between Slave and Master for Data transformation:**
-  For the arm movements, some information from the slave is required. Using this data, I can simulate the movements in the UI interface. To achieve this, we wrote a TCP connection script.   
+## Description
+This project implements a graphical user interface (GUI) for communication between the master and slave components of a surgical robot. The interface is developed using Python's Tkinter library and utilizes TCP communication to send and receive data between the master and slave.
+
+## Features
+- Intuitive GUI for controlling the surgical robot.
+- Real-time data transmission from the slave to the master.
+- Control signals from the master to actuate the slave robot's movements.
+- Simulation capabilities for better understanding of robot dynamics.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YourUsername/SurgicalRobotGUI.git
+
+2. Navigate to the project directory:
+    ```bash
+    cd SurgicalRobotGUI
+
+3. Install the required dependencies:
+     ```bash
+    pip install -r requirements.txt
+
